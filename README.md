@@ -22,3 +22,13 @@ A capacitive-touch activated smart display built on the ESP32 platform. This pro
 
 ## Developer Note
 *Note: Wi-Fi credentials and Telegram Bot API tokens have been removed from this public repository for security purposes. To deploy this code locally, replace the placeholder variables at the top of the sketch with your own credentials.*
+
+## Hardware Wiring Guide
+
+| Component | Pin Name | ESP32 Pin |
+| :--- | :--- | :--- |
+| **OLED Display** | VCC | 3.3V |
+| | GND | GND |
+| | SDA | GPIO 21 |
+| | SCL | GPIO 22 |
+| **Touch Sensor** | Copper Wire | GPIO 4 |
